@@ -2,30 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1eab3156-543c-4d9d-8531-47cb74c24213" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/comment_page/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/comment_page/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/comment_page/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/item/item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/item/item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/left/left.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/right/right.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/right/right.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src1/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src1/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mockJson/demo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Router/main1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Router/main2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Router/main3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Router/main4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Router/main5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Router/setFocusRouter/userManageRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Router/setFocusRouter/userManageRouter1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Router/setFocusRouter/userManageRouter2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/menuConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/admin/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/admin/admin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/images/bd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/login.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/dateUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/storageUtils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +53,11 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Router/setFocusRouter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,15 +72,21 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="ts.external.directory.path" value="E:\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\webstormdemo\ReactAdmin\src\pages\login\images" />
+      <recent name="D:\webstormdemo\ReactAdmin\src\assets\images" />
       <recent name="D:\untitled6\public\comment_page\css" />
       <recent name="D:\untitled6\src\right" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\untitled6\src\app" />
-      <recent name="D:\untitled6\public" />
+      <recent name="D:\webstormdemo\ReactAdmin\src\Router\setFocusRouter" />
+      <recent name="D:\webstormdemo\ReactAdmin\src\Router" />
+      <recent name="D:\webstormdemo\ReactAdmin\src\pages\admin" />
+      <recent name="D:\webstormdemo\ReactAdmin\src\logo" />
+      <recent name="D:\webstormdemo\ReactAdmin\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -131,6 +142,21 @@
       <workItem from="1569305143292" duration="461000" />
       <workItem from="1569371410436" duration="143000" />
       <workItem from="1571629011741" duration="51000" />
+      <workItem from="1576636367020" duration="3919000" />
+      <workItem from="1576651049968" duration="7816000" />
+      <workItem from="1576804688796" duration="3564000" />
+      <workItem from="1577094877276" duration="4925000" />
+      <workItem from="1577326769414" duration="9926000" />
+      <workItem from="1577413828196" duration="7091000" />
+      <workItem from="1577494789079" duration="2796000" />
+      <workItem from="1577755784436" duration="18767000" />
+      <workItem from="1577925617838" duration="5452000" />
+      <workItem from="1577951182754" duration="1025000" />
+      <workItem from="1578011188114" duration="3443000" />
+      <workItem from="1578277562187" duration="10796000" />
+      <workItem from="1578356246806" duration="19447000" />
+      <workItem from="1578451037001" duration="15427000" />
+      <workItem from="1578529000597" duration="20398000" />
     </task>
     <servers />
   </component>
@@ -149,5 +175,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

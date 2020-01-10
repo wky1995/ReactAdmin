@@ -2,7 +2,7 @@ import React,{Component} from "react";
 import {Breadcrumb, Icon, Layout, Menu} from "antd";
 const {SubMenu}  =Menu;
 const {Content, Sider} = Layout;
-export default class Main extends Component{
+export default class Main1 extends Component{
     render() {
         return(
             <Layout>

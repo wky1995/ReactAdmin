@@ -1,9 +1,9 @@
 import React,{Component} from "react";
-export default class Main3 extends Component{
+export default class Main4 extends Component{
     render() {
         return(
            <div>
-               3
+               4
            </div>
         )
     }

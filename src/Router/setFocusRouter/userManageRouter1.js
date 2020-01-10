@@ -1,7 +1,9 @@
 import React,{Component} from "react";
+import   {withRouter}     from "react-router-dom"
 import {Layout} from "antd";
-const {Content} = Layout;
-export default class UserManage extends Component{
+const   {Content} =Layout;
+
+ class UserManage1 extends Component{
     render() {
         return(
             <Content
@@ -10,11 +12,12 @@ export default class UserManage extends Component{
                     padding: 24,
                     margin: 0,
                     minHeight: 1000,
-                }}
-            >
-                1
+                }}>
+
+                5689
             </Content>
         )
     }
 
 }
+export default withRouter(UserManage1)

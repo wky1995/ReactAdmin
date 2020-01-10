@@ -1,0 +1,28 @@
+#components-layout-demo-top-side-2 .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 28px 16px 0;
+    float: left;
+}
+.header{
+    color: #5bc0de;
+    text-decoration: none;
+}
+.logo {
+    width: 150px;
+    height: 50px;
+    margin: 5px 10px 0px 0px;
+    float: right;
+}
+
+.button{
+    margin: 5px 10px 5px 5px;
+}
+.weather{
+    width: 150px;
+    height: 50px;
+    margin: 5px 10px 0px 0px;
+    float: left;
+}
+
