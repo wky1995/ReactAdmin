@@ -1,10 +1,10 @@
-import React,{Component} from "react";
+import React,{useState} from "react";
 import  {withRouter} from "react-router-dom"
 import {Layout} from "antd";
 
 const  {Content}=Layout
- class UserManage extends Component{
-    render() {
+ function UserManage() {
+     const[count,setCount]=useState(0)
         return(
             <Content style={{
                 background: '#fff',
@@ -12,10 +12,11 @@ const  {Content}=Layout
                 margin: 0,
                minHeight: 600
             }}>
-                3
+                <div>
+        <p>You clicked {count} </p>
+                </div>
             </Content>
         )
     }
 
-}
 export default withRouter(UserManage)
